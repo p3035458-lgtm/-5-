@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGOGO - Вхід/Реєстрація</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        /* Стилі, що стосуються лише цієї сторінки, щоб уникнути конфліктів */
+        .registration-page main {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Вирівнювання зверху, щоб не "плавала" форма */
+            min-height: calc(100vh - 80px); /* Врахування висоти хедера */
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body class="registration-page">
+
+    <header>
+        <div class="header-content">
+            <div class="logo">MEGOGO</div>
+            <nav>
+                <ul>
+                    <li><a href="#">ТЕЛЕКАНАЛИ</a></li>
+                    <li><a href="#">ФІЛЬМИ</a></li>
+                    <li class="dropdown-menu-parent">
+                        <a href="#">МУЛЬТФІЛЬМИ</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Мультфільми Disney</a>
+                            <a href="#">Мультсеріали Nickelodeon</a>
+                            <a href="#">Українською мовою</a>
+                            <a href="#" class="new-item">Новинки</a>
+                        </div>
+                    </li>
+                    <li><a href="#">СЕРІАЛИ</a></li>
+                    <li><a href="#">ШОУ</a></li>
+                    <li><a href="#">СПОРТ</a></li>
+                    <li><a href="#">ОСВІТА</a></li>
+                    <li class="more-options"><a href="#">...</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <a href="#" class="tariff-btn">Тарифи</a>
+                <a href="#" class="lang-switch">UA</a>
+                <a href="registration.html" class="login-btn">УВІЙТИ</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="login-form-container">
+            <h2>Увійти до акаунту</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="login">Електронна пошта або телефон</label>
+                    <input type="text" id="login" name="login" required placeholder="Ваш логін">
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" required placeholder="Ваш пароль">
+                </div>
+                <button type="submit" class="login-form-btn primary">УВІЙТИ</button>
+                <button type="button" class="login-form-btn secondary">ЗАРЕЄСТРУВАТИСЬ</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
