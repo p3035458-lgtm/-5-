@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGOGO - Вибирайте свою ідеальну передплату</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">MEGOGO</div>
+            <nav>
+                <ul>
+                    <li><a href="#">ТЕЛЕКАНАЛИ</a></li>
+                    <li><a href="#">ФІЛЬМИ</a></li>
+                    <li class="dropdown-menu-parent">
+                        <a href="#">МУЛЬТФІЛЬМИ</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Мультфільми Disney</a>
+                            <a href="#">Мультсеріали Nickelodeon</a>
+                            <a href="#">Українською мовою</a>
+                            <a href="#" class="new-item">Новинки</a>
+                        </div>
+                    </li>
+                    <li><a href="#">СЕРІАЛИ</a></li>
+                    <li><a href="#">ШОУ</a></li>
+                    <li><a href="#">СПОРТ</a></li>
+                    <li><a href="#">ОСВІТА</a></li>
+                    <li class="more-options"><a href="#">...</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <a href="#" class="tariff-btn">Тарифи</a>
+                <a href="#" class="lang-switch">UA</a>
+                <a href="registration.html" class="login-btn">УВІЙТИ</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Вибирайте свою ідеальну передплату</h1>
+        <p class="subtitle">Підключайте в декілька кліків із пробним періодом для нових користувачів</p>
+
+        <section class="subscription-cards">
+
+            <div class="card basic-card">
+                <h2>Легка</h2>
+                <p class="card-description">Для любителів ТБ, колекція фільмів, мультфільмів та серіалів</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <span>375</span>
+                        <small>каналів</small>
+                    </div>
+                    <div class="feature-item">
+                        <span>10 500+</span>
+                        <small>фільмів</small>
+                    </div>
+                </div>
+                <button class="connect-btn">Підключити</button>
+                <div class="price-info">
+                    <span class="price">від 99 <small>грн/міс.</small></span>
+                    <span class="old-price">129</span>
+                    <p class="trial-period">Перші 7 днів – 29 грн</p>
+                </div>
+            </div>
+
+            <div class="card premium-card">
+                <h2>Оптимальна</h2>
+                <p class="card-description">Канали, фільми, серіали, мультфільми топових кіностудій</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <span>445</span>
+                        <small>каналів</small>
+                    </div>
+                    <div class="feature-item">
+                        <span>11 500+</span>
+                        <small>фільмів</small>
+                    </div>
+                </div>
+                <button class="connect-btn">Підключити</button>
+                <div class="price-info">
+                    <span class="price">від 161 <small>грн/міс.</small></span>
+                    <span class="old-price">249</span>
+                    <p class="trial-period">Перші 7 днів – 49 грн</p>
+                </div>
+            </div>
+
+            <div class="card megapack-card">
+                <div class="promo-label">ТОП ПРОДАЖ</div>
+                <h2>MEGOPACK <br>(Максимальна)</h2>
+                <p class="card-description">Весь спорт, канали, максимум фільмів та мультфільмів, серіали</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <span>480</span>
+                        <small>каналів</small>
+                    </div>
+                    <div class="feature-item">
+                        <span>16 000+</span>
+                        <small>фільмів</small>
+                    </div>
+                </div>
+                <button class="connect-btn">Підключити</button>
+                <div class="price-info">
+                    <span class="price">від 291 <small>грн/міс.</small></span>
+                    <span class="old-price">449</span>
+                    <p class="trial-period">Перші 7 днів – 99 грн</p>
+                </div>
+            </div>
+
+        </section>
+
+        <a href="#" class="details-link">Детальніше про передплати</a>
+    </main>
+
+</body>
+</html>
