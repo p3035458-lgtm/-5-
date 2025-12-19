@@ -71,12 +71,13 @@ nav a:hover {
 }
 .tariff-btn, .lang-switch, .login-btn {
     font-size: 14px;
-    padding: 5px 10px;
-    border-radius: 4px;
+    width: 83px;
+    height: 30px;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 .tariff-btn {
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 .tariff-btn:hover {
     background-color: rgba(255, 255, 255, 0.1);
